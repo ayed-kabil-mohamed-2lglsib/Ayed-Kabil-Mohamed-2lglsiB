@@ -1,4 +1,4 @@
-*ceci ce le descreption de mon projet*
+*ceci ce la descreption de mon projet*
 
 **gestion de produit**
 
