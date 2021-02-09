@@ -6,9 +6,9 @@
 
 2.supprimer Produit 
 
-3.Modification Produit
+3.Modifier Produit
 
-4.Consultatione et recherche Produit
+4.Consulter et rechercher Produit
 
 **Listes de étudiants**
 
