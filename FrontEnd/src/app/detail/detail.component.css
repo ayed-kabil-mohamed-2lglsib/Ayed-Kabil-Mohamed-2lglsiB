@@ -1,0 +1,136 @@
+
+#Ca,#Mo {
+
+    color: #007bff;
+    margin-bottom: 10px;
+
+  }
+
+  #image{
+    height: 70px;
+    width: 110px;
+    margin-left:30px;
+  }
+ #titre{
+     text-align: center;
+        width: 800px;
+        margin-left: 1px;
+        color: #0197F6;
+        
+        padding: 10px 0px 10px 0px;
+        text-align: center;
+        text-shadow: 2px 0 0 black, 0 -2px 0 black, 2px 2px 0 black, 2px -2px 0 black, -2px 2px 0 black, -2px -2px 0 black;
+ }
+ #sprint{
+     width: 850px;
+     margin-left: 300px;
+     height:min-content;
+   
+    max-width: 400%;
+    object-fit: cover;
+ }
+
+ .model{
+     margin: 25px 360px;
+ }
+ .model img{
+     width: 200px;
+     padding: 5px;
+     filter: grayscale(100%);
+     transition: 1s;
+     
+ }
+ .model img:hover{
+     filter :grayscale(0);
+     transform:scale(1.1);
+ }
+ h2{
+     position: absolute;
+     top: 60%;
+     left: 80%;
+ }
+ .btn{
+    position: absolute;
+    top: 67%;
+    left: 80%;
+ }
+#d1{
+
+    position: absolute;
+
+    left: 20%;
+    top : 102%;
+    margin-top:65px; 
+    margin-left:45px;
+    
+}
+#para{
+    text-align: center;
+    left: 40%;
+    padding: 10px 0px 10px 0px;
+    margin: auto;
+    text-align:justify; 
+    margin-right:360px;
+     margin-left:380px;
+}
+.a{
+    background-position: inherit;
+}
+h1{
+    margin-top:15px;
+    margin-left:-15px;
+    
+    font-family: 'Lucida Sans Unicode', 'Lucida Grande', sans-serif;
+    text-shadow: 2px 0 0 black, 0 -2px 0 black, 2px 2px 0 black, 2px -2px 0 black, -2px 2px 0 rgb(36, 35, 35), -2px -2px 0 black;
+    margin-left: 10px;
+}
+#home{
+    margin-top: -35px;
+}
+.cabmoto{
+    margin-top: -42px;
+    margin-left: 10px;
+}
+
+@media(max-width:800px){
+    #nav{
+        height: 50px;
+
+    }
+   
+    #sprint{
+        width: 350px;
+        height: 200px;
+        margin:0px;
+    }
+    #titre{
+        margin-left: -280px;
+
+    }
+   
+  .model{
+      margin: 0px;
+  }
+  #para{
+      font-size: 14px;
+      margin: 0px;
+      margin-top: 20px;
+      justify-content: center;
+  }
+  #d1{
+      margin-top: 100px;
+      margin-left: -60px;
+  }
+  #p1{
+      margin-top: 550px;
+      margin-left: -120px;
+  }
+  #price{
+      margin-top: 600px;
+      margin-left: -200px;
+  }
+  .cabmoto{
+      margin-top: -45px;
+      margin-left: 10px;
+  }
+}

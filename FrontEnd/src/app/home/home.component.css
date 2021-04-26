@@ -1,0 +1,11 @@
+@media(min-width:1000px){
+#footer{
+margin-top: 100px;
+}
+#test{
+height: 300px;
+}
+}
+@media(max-width:800px){
+
+}

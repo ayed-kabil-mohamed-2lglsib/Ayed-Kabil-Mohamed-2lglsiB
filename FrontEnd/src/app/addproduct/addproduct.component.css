@@ -1,0 +1,7 @@
+@media(min-width:1000px){
+  #test{
+ margin-left: 200px;
+ margin-top: 80px;
+ margin-right: 300px;
+  }
+}

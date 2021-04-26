@@ -1,0 +1,152 @@
+@media(min-width:1000px){
+h3{
+    margin-left: 90px;
+    color: #007BFF;
+}
+#txt{
+    margin-left: 140px;
+
+    
+}
+body{
+    background-color: #F9FBF2;
+    
+   
+}
+
+
+
+
+
+#position{
+    margin-top: 15px;
+    margin-left: 140px;
+   
+
+}
+strong{
+    margin-left: 10px;
+
+} 
+#msge{
+    margin-left: 140px;
+}
+#num{
+    margin-left: 140px;
+    margin-top: 15px;
+
+
+}
+#facebouk{
+    margin-left: 140px;
+    margin-top: 15px;
+
+}
+
+
+#form{
+    margin-top: -140px;
+    
+}
+
+#msg{
+    width: 400px;
+    margin-top: 15px;
+  
+
+}
+#mail{
+    margin-top: 15px;
+    width: 400px;
+
+}
+#name{
+    width: 400px;
+}
+
+#envoyer{
+    margin-top: 5px;
+    margin-left: 1330px;
+    margin-bottom: 10px;
+}}
+
+
+@media(max-width:800px){
+    h3{
+        
+      font-size:20px;
+        margin-left: 5px;
+        color: #007BFF;
+    }
+    #txt{
+        margin-left:10px;
+    
+        
+    }
+    body{
+        background-color: #F9FBF2;
+        
+       
+    }
+    #position{
+        margin-top: 15px;
+        margin-left: 10px;
+       
+    
+    }
+    strong{
+        margin-left: 10px;
+        font-size: x-small;
+    
+    } 
+    #msge{
+        margin-left: 10px;
+    }
+    #num{
+        margin-left: 10px;
+        margin-top: 15px;
+    
+    
+    }
+    #facebouk{
+        margin-left: 10px;
+        margin-top: 15px;
+    
+    }
+
+
+
+
+
+    #form{
+        margin-top: -140px;
+        margin-left: 200px;
+        width: 150px;
+        
+        
+    }
+    
+    #msg{
+        
+        
+        margin-top: 15px;
+      
+    
+    }
+    #mail{
+        
+        margin-top: 15px;
+       
+    
+    }
+    
+    #envoyer{
+        margin-top: 5px;
+        margin-left: 69px;
+        margin-bottom: 10px;
+        
+    }
+    
+   
+
+}

@@ -1,0 +1,105 @@
+/* Navbar designe LOGO*/
+img {
+  height: 70px;
+  width: 110px;
+  margin-left: 30px;
+}
+
+#search {
+  width: 700px;
+  margin-left: 30px;
+  margin-top: 10px;
+}
+
+#panier {
+  margin-left: 1500px;
+  margin-top: -65px;
+position: fixed;
+}
+
+@media(min-width:1000px) {
+  #login {
+    margin-left: 70px;
+    width: 95px;
+    margin-top: 10px;
+
+  }
+
+  #sign {
+    width: 95px;
+    margin-top: 10px;
+
+  }
+}
+
+/* NAVBAR DESIGN cabmoto */
+h1 {
+  margin-top: 15px;
+  margin-left: -15px;
+
+  font-family: 'Lucida Sans Unicode', 'Lucida Grande', sans-serif;
+  text-shadow: 2px 0 0 black, 0 -2px 0 black, 2px 2px 0 black, 2px -2px 0 black, -2px 2px 0 rgb(36, 35, 35), -2px -2px 0 black;
+  margin-left: 10px;
+}
+
+#Ca,
+#Mo {
+
+  color: #007bff;
+
+}
+
+
+
+
+.navbar-inverse .navbar-toggle,
+.navbar-inverse .navbar-toggle:hover,
+.navbar-inverse .navbar-toggle:focus {
+  background-color: #000 !important;
+}
+
+
+/*mobile*/
+@media(max-width: 800px) {
+  img {
+    height: 50px;
+    width: 60px;
+    margin-left: 75px;
+  }
+
+  h1 {
+    margin-top: -60px;
+    font-size: 35px;
+    margin-right: 70px;
+
+  }
+
+  #panier {
+
+    margin-top: -52px;
+    margin-left: 300px;
+    display: none;
+  }
+
+  #search {
+    width: 220px;
+    margin-top: -40px;
+    margin-left: 80px;
+
+  }
+
+  #btn {
+    margin-top: 9px;
+    margin-left: 10px;
+    border-radius: 0px;
+  }
+
+  #login {
+    border-radius: 0px;
+  }
+
+  #sign {
+    border-radius: 0px;
+  }
+  
+}

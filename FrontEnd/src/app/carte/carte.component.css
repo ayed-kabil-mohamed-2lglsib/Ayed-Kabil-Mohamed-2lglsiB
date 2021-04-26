@@ -1,0 +1,55 @@
+h2{
+    font-weight: 900; 
+}
+h3{
+    font-weight: 900;
+}
+
+@media(min-width:1000px){
+#card{
+    margin-top: 10px;
+    margin-left: 90px;
+    margin-bottom: 30px;
+}
+
+#ajout{
+    width: 110px;
+
+}
+#lire{
+    width: 110px;
+    margin-left: 5px;
+
+}
+#a{margin-right: 0px;
+
+}
+#b{
+
+}
+#c{
+
+}
+#d{
+    
+
+}
+.tab1cards{
+    display:flex;
+    flex-direction:row;
+    justify-content:space-between;
+    
+  }
+#ls{
+    margin-left: 10px;
+}
+}
+
+@media(max-width:800px){
+ #lire{
+     margin-left: 10px;
+ }  
+ #test{
+     margin-left: -20px;
+ } 
+}

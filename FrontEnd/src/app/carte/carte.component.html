@@ -1,0 +1,18 @@
+
+ <div class="tab1cards" id="test">
+<div  class="col-lg-3 col-sm-12" id="card " *ngFor = "let rep of products" >
+    <div class="card " style="height: 440px; display: inline-block;" >
+      <img src="{{rep.Image}}"  style="width: 380px; " class="card-img-top" alt="...">
+      <div class="card-body">
+        <h2 class="card-title">{{rep.Model}}</h2>
+        <h3 class="card-title">{{rep.Price}}DT</h3>
+        <p class="card-text">{{rep.Description}}</p>
+        <a href="#" class="btn btn-primary" id="ajout" routerLink="/payment">Add</a>
+        <a href="#"  class="btn btn-primary" id="lire"routerLink="/detail">Read more</a>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
